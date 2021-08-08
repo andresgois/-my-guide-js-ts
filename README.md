@@ -116,7 +116,7 @@ sudo apt install nodejs -y
 
 - pm2 restart api
 
-![Tipos On Delete](img\tipos_onDelete.png)
+![Tipos On Delete](Curso_JS_TS_básico_avançado_2021\img\tipos_onDelete.png)
 
 ## 14: React com componentes de classe (Básico) - JavaScript (Lista de Tarefas)
 
@@ -137,4 +137,18 @@ sudo apt install nodejs -y
 
 
 ## GIT
+
+…or create a new repository on the command line
+echo "# -my-guide-js-ts" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/andresgois/-my-guide-js-ts.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/andresgois/-my-guide-js-ts.git
+git branch -M main
+git push -u origin main
+
 git diff --name-only --staged
