@@ -1,0 +1,14 @@
+{
+  "name": "3_modulo",
+  "version": "1.0.0",
+  "description": "aula03",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andre gois",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,31 @@
+<%- include('includes/head')  %>
+
+    
+    <section class="container">
+        <h1>
+            <%= titulo %>
+            <br>
+            <%- titulo2 %>
+            <br>
+            <% if(titulo !== 'underfined') {%>
+                OK
+            <% } %>
+        </h1>
+
+        <span><%= variavel %></span>
+        
+        <p>
+            <% numero.forEach(num => { %>
+                <%= num %> 
+            <% }) %>
+        </p>
+
+        <form action="/" method="post">
+            <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+            <label for="">Cliente</label>
+            <input type="text" name="cliente">
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <%- include('includes/footer')  %>   
